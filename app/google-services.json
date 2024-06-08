@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "821802394789",
+    "project_id": "project-mobile-computing-4b231",
+    "storage_bucket": "project-mobile-computing-4b231.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821802394789:android:3366175675df09fd10994c",
+        "android_client_info": {
+          "package_name": "com.dndialidrs.project_api_mobilecomputing"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH7BolJX6cNi9MnsTmOG5Bc2VzOGJaVhM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

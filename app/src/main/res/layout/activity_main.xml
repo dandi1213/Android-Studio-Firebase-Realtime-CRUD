@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Rekapitulasi Nilai Mahasiswa"
+        android:textColor="#3F51B5"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/mahasiswaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mahasiswa"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#0F1566"
+        android:padding="20dp"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/mataKuliahButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mata Kuliah"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#0F1566"
+        android:padding="20dp"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/nilaiButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nilai"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#0F1566"
+        android:padding="20dp"
+        android:layout_margin="16dp"/>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context=".Mahasiswa.DetailMahasiswaActivity">
+
+    <!-- Nama -->
+    <TextView
+        android:id="@+id/textViewNama"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FF5722"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textViewNim"
+        android:background="#FFFFFF"
+        android:elevation="2dp"/>
+
+    <!-- NIM -->
+    <TextView
+        android:id="@+id/textViewNim"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Nim"
+        android:textSize="20sp"
+        android:textColor="#4CAF50"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNama"
+        app:layout_constraintBottom_toTopOf="@+id/textViewTtl"
+        android:background="#FFFFFF"
+        android:elevation="2dp"/>
+
+    <!-- TTL -->
+    <TextView
+        android:id="@+id/textViewTtl"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ttl"
+        android:textSize="20sp"
+        android:textColor="#2196F3"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNim"
+        android:background="#FFFFFF"
+        android:elevation="2dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Project_API_MobileComputing</string>
+
+    <string-array name="mahasiswa_array">
+        <item>Mahasiswa 1</item>
+        <item>Mahasiswa 2</item>
+        <!-- Tambahkan nama mahasiswa lainnya di sini -->
+    </string-array>
+
+    <string-array name="matakuliah_array">
+        <item>Mata Kuliah 1</item>
+        <item>Mata Kuliah 2</item>
+        <!-- Tambahkan nama mata kuliah lainnya di sini -->
+    </string-array>
+
+</resources>

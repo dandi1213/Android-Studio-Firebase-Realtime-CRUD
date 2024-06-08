@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MataKuliah.EditMataKuliahActivity">
+
+    <TextView
+        android:id="@+id/textViewMataKuliah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mata Kuliah"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="14dp" />
+
+    <EditText
+        android:id="@+id/editTextMataKuliah"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Mata Kuliah"
+        android:inputType="textPersonName"
+        android:padding="14dp"
+        android:background="@drawable/edittext_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewMataKuliah"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewSks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SKS"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMataKuliah"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="14dp" />
+
+    <EditText
+        android:id="@+id/editTextSks"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="SKS"
+        android:inputType="number"
+        android:padding="14dp"
+        android:background="@drawable/edittext_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewSks"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewDosen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dosen"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextSks"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="14dp" />
+
+    <EditText
+        android:id="@+id/editTextDosen"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Dosen"
+        android:inputType="textPersonName"
+        android:padding="14dp"
+        android:background="@drawable/edittext_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewDosen"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/tombolupdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#0F1566"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDosen"
+        android:layout_marginTop="32dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

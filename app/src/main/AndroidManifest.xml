@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project_API_MobileComputing"
+        tools:targetApi="31">
+        <activity
+            android:name=".Nilai.DetailNilaiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MataKuliah.DetailMataKuliahActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Mahasiswa.DetailMahasiswaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Nilai.NilaiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MataKuliah.MataKuliahActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Mahasiswa.MahasiswaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Nilai.EditNilaiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Nilai.AddNilaiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MataKuliah.EditMataKuliahActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MataKuliah.AddMataKuliahActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Mahasiswa.EditMahasiswaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Mahasiswa.AddMahasiswaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

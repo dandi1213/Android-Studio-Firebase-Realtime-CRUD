@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Nilai.EditNilaiActivity">
+
+    <TextView
+        android:id="@+id/textViewNamaMahasiswa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Mahasiswa"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="14dp" />
+
+    <Spinner
+        android:id="@+id/spinnerNamaMahasiswa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittext_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewNamaMahasiswa" />
+
+    <TextView
+        android:id="@+id/textViewNamaMatkul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Mata Kuliah"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinnerNamaMahasiswa"
+        android:layout_marginTop="14dp"
+        android:layout_marginStart="14dp" />
+
+    <Spinner
+        android:id="@+id/spinnerNamaMatkul"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittext_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewNamaMatkul" />
+
+    <TextView
+        android:id="@+id/textViewNilai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nilai"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinnerNamaMatkul"
+        android:layout_marginTop="14dp"
+        android:layout_marginStart="14dp" />
+
+    <EditText
+        android:id="@+id/editTextNilai"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Nilai"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewNilai" />
+
+    <TextView
+        android:id="@+id/textViewPeringkat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peringkat"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextNilai"
+        android:layout_marginTop="14dp"
+        android:layout_marginStart="14dp" />
+
+    <EditText
+        android:id="@+id/editTextPeringkat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Peringkat"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewPeringkat" />
+
+    <Button
+        android:id="@+id/tombolupdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#0F1566"
+        android:padding="16dp"
+        android:text="Update"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextPeringkat" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- Nilai -->
+    <TextView
+        android:id="@+id/textViewNilai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nilai"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FF5722"
+        android:padding="16dp"
+        android:background="#FFFFFF"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Peringkat -->
+    <TextView
+        android:id="@+id/textViewPeringkat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Peringkat"
+        android:textSize="20sp"
+        android:textColor="#4CAF50"
+        android:padding="16dp"
+        android:background="#FFFFFF"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Mahasiswa -->
+    <TextView
+        android:id="@+id/textViewMahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mahasiswa"
+        android:textSize="20sp"
+        android:textColor="#2196F3"
+        android:padding="16dp"
+        android:background="#FFFFFF"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Mata Kuliah -->
+    <TextView
+        android:id="@+id/textViewMataKuliah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mata Kuliah"
+        android:textSize="20sp"
+        android:textColor="#9C27B0"
+        android:padding="16dp"
+        android:background="#FFFFFF"
+        android:elevation="2dp"
+        android:gravity="center"/>
+
+</LinearLayout>
